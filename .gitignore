@@ -3,14 +3,9 @@
 *.pyc*
 __pycache__/
 .venv/
-.vscode/
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
-.env.development
-.env.test
 export*
 __pycache__/model_tools.cpython-310.pyc
 __pycache__/web_tools.cpython-310.pyc
@@ -63,3 +58,7 @@ mini-swe-agent/
 .nix-stamps/
 result
 website/static/api/skills-index.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
