@@ -6,6 +6,9 @@ import reactPlugin from 'eslint-plugin-react'
 import hooksPlugin from 'eslint-plugin-react-hooks'
 import unusedImports from 'eslint-plugin-unused-imports'
 import globals from 'globals'
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const noopRule = {
   meta: { schema: [], type: 'problem' },
@@ -104,4 +107,4 @@ export default [
   {
     ignores: ['*.config.*']
   }
-]
+];
